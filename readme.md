@@ -1,7 +1,4 @@
-<p align="center"><img src="https://raw.githubusercontent.com/ijlik/TRC20-Wallet/master/public/img/coin/trx.png" width="200"></p>
-<p align="center"><img src="https://raw.githubusercontent.com/ijlik/TRC20-Wallet/master/public/img/coin/btt.png" width="200"></p>
-<p align="center"><img src="https://raw.githubusercontent.com/ijlik/TRC20-Wallet/master/public/img/coin/idk.png" width="200"></p>
-<p align="center"><img src="https://raw.githubusercontent.com/ijlik/TRC20-Wallet/master/public/img/coin/usdt.png" width="200"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/ijlik/TRC20-Wallet/master/public/img/coin/banner.png" width="200"></p>
 
 ## TRC20 Wallet
 
