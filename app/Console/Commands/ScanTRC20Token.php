@@ -56,9 +56,9 @@ class ScanTRC20Token extends Command
             $contract = $coin->contract_address;
             $min_block_timestamp = $coin->last_block_timestamp;
             if($min_block_timestamp == 0) {
-                $url = 'https://api.trongrid.io/v1/contracts/' . $contract . '/events?limit=200&only_confirmed=true&event_name=Transfer&order_by=block_timestamp,asc';
+                $url = 'https://api.trongrid.io/v1/contracts/' . $contract . '/events?limit=200&only_confirmed=true&event_name=Transfer&order_by=block_timestamp,desc';
             } else {
-                $url = 'https://api.trongrid.io/v1/contracts/' . $contract . '/events?limit=200&only_confirmed=true&event_name=Transfer&order_by=block_timestamp,asc&min_block_timestamp='.$min_block_timestamp;
+                $url = 'https://api.trongrid.io/v1/contracts/' . $contract . '/events?limit=200&only_confirmed=true&event_name=Transfer&order_by=block_timestamp,desc&min_block_timestamp='.$min_block_timestamp;
             }
             $client = new Client();
             $request = $client->get($url);
